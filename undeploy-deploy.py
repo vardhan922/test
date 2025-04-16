@@ -24,5 +24,5 @@ def wlDeployUndeploy(username, password, adminURL, appName, location, targets, s
 
     except Exception, e:
          print ex.toString()
-wlDeployUndeploy('weblogic','weblogic1','t3://192.168.0.110:7001', appname1, apppath + appname1 + ".war", targets='mycluster', stageMode='stage')
+wlDeployUndeploy('weblogic','weblogic1','t3://192.168.0.107:7001', appname1, apppath + appname1 + ".war", targets='mycluster', stageMode='stage')
 
